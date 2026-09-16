@@ -1,0 +1,3 @@
+# output of format_gstr1.py
+*.xlsx.bak
+out/
