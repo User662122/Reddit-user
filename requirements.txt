@@ -1,0 +1,5 @@
+# AutoKeyPress (E.py) dependencies
+openpyxl        # reads the .xlsx sheet
+pyautogui       # sends the keystrokes (+ the corner failsafe)
+keyboard        # listens for the trigger key without stealing focus (Windows: run as admin)
+pyperclip       # fast clipboard paste for the Narration column / unicode text
