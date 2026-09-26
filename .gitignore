@@ -1,3 +1,7 @@
 # output of format_gstr1.py
 *.xlsx.bak
 out/
+
+# python bytecode
+__pycache__/
+*.pyc
