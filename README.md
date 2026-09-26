@@ -5,10 +5,11 @@ A personal, non-commercial AI assistant that monitors user-selected subreddits, 
 
 ### Excel / GST helpers
 
-* `format_gstr1.py` — formats the raw monthly Tally sales register (`BDBJUL.xlsx`)
-  exactly like the hand-made `BDB GSTR1 SYSTEM DATA JULY-2026.xlsx`, so the
-  monthly formatting is a single command. Regex driven, so the number of invoices
-  and sections can change every month.
+* `format_gstr1.py` — formats the raw monthly Tally sales registers of all four
+  clients (BDB, DPB, HKI, HTEI) exactly like their hand-made
+  "GSTR1 SYSTEM DATA" files, so the monthly formatting is a single command.
+  Regex driven, so the number of invoices, sections and GST rates can change
+  every month.
 * `compare_workbooks.py` — cell-by-cell check of a generated file against a sample.
 
 See [GSTR1_FORMATTING.md](GSTR1_FORMATTING.md) for usage.
