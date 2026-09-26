@@ -5,3 +5,6 @@ out/
 # python bytecode
 __pycache__/
 *.pyc
+
+# output of fill_gstr1_govt.py
+govt_out/
